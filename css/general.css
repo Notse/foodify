@@ -1,0 +1,154 @@
+/* ******* General Code *********** */
+
+*:focus {
+  /* outline: 2px dashed #45260a;
+  outline-offset: 8px; */
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  color: #fff;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: capitalize;
+
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cta:link,
+.btn-outline:visited {
+  background-color: #e67e22;
+}
+
+.btn-cta:hover,
+.btn-outline:active {
+  background-color: #eb984e;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: transparent;
+  color: #e67e22;
+  text-decoration: none;
+  border: 1px solid #e67e22;
+  font-weight: 500;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding: 2px;
+}
+
+.btn-form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fdf2e9;
+  color: #45260a;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid-align-v {
+  align-items: center;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.margin-r-sm {
+  margin-right: 1.6rem;
+}
+
+.primary-heading,
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.primary-heading {
+  font-size: 5rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.sub-heading {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+/* ******************** */
